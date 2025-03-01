@@ -1,4 +1,4 @@
-#include <FlipDotMatrix.h>
+#include "FlipDotMatrix.h"
 
 /// @brief                FlipDotMatrix constructor
 /// @param panelType      Type of panel, e.g. 28x7, 14x7, 7x7

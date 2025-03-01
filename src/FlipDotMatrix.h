@@ -1,8 +1,8 @@
 #ifndef FLIPDOTMATRIX_H
 #define FLIPDOTMATRIX_H
 
+#include "FlipDotController.h"
 #include <Adafruit_GFX.h>
-#include <FlipDotController.h>
 
 // there are 7 dots per column
 #define PANEL_ROWS 7
