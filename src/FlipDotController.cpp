@@ -1,4 +1,4 @@
-#include <FlipDotController.h>
+#include "FlipDotController.h"
 
 FlipDotController::FlipDotController(PanelType p, HardwareSerial *serial,
                                      int baud)

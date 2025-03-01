@@ -3,7 +3,7 @@ name: PlatformIO CI
 on: [push]
 
 jobs:
-  Build-Examples:
+  build-and-lint:
     runs-on: ubuntu-latest
     
     steps:
@@ -14,5 +14,8 @@ jobs:
       - name: Install PIO Core
         run: pip install --upgrade platformio
 
-      - name: Build library examples
+      - name: Build examples
         run: bash scripts/ci.sh
+
+      - name: Lint project
+        run: bash scripts/lint.sh
